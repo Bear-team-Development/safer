@@ -14,3 +14,5 @@ clone下來
 把token放到.env
 
 跑`python .`
+
+注意：要開所有的intents
