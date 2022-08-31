@@ -14,7 +14,7 @@ model = predict.load_model("./nsfw_mobilenet2.224x224.h5")
 
 class message_check(commands.Cog):
     def __init__(self, bot: discord.Bot) -> None:
-        self.bot = bot
+
         self.bot = bot
         with open("scam.json", "r") as f:
             self.scam = set(json.load(f))
